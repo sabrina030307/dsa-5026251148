@@ -1,44 +1,44 @@
-package lw01.unguided;
+// package lw01.unguided;
 
-public class Rental {
+// public class Rental {
     
-}
-    public abstract class Rental implements Chargeable {
-    private String id;
-    private int days;
+// }
+//     public abstract class Rental implements Chargeable {
+//     private String id;
+//     private int days;
 
-    protected Rental(String id, int days) {
-        if (days <= 0) {
-            throw new IllegalArgumentException();
-        }
+//     protected Rental(String id, int days) {
+//         if (days <= 0) {
+//             throw new IllegalArgumentException();
+//         }
 
-        this.id = id;
-        this.days = days;
-    }
+//         this.id = id;
+//         this.days = days;
+//     }
 
-    public String getId() {
-        return id;
-    }
+//     public String getId() {
+//         return id;
+//     }
 
-    public int getDays() {
-        return days;
+//     public int getDays() {
+//         return days;
         
-        }
+//         }
     
 
-    public int calculateCharge(int units) {
-        if (units <= 0) {
-            throw new IllegalArgumentException();
-        }
+//     public int calculateCharge(int units) {
+//         if (units <= 0) {
+//             throw new IllegalArgumentException();
+//         }
 
-        return units * calculateCharge();
-    }
+//         return units * calculateCharge();
+//     }
 
-    public String label() {
-        return "Rental";
-    }
+//     public String label() {
+//         return "Rental";
+//     }
 
-    public String summary() {
-        return id + " | " + label() + " | " + calculateCharge();
-    }
-}        
+//     public String summary() {
+//         return id + " | " + label() + " | " + calculateCharge();
+//     }
+// }        
