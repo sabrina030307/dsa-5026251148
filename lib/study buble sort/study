@@ -1,0 +1,50 @@
+public class main{
+    public static void main(String[] args) {
+        
+        System.out.println("hi");
+        int [] data = {5, 7, -3, 6, 1};
+        System.out.println("Insertion Sort:");
+        insertionSort(data);
+        System.out.println("Data after Insertion Sort:");
+    }
+    public static void insertionSort(int[] data) {
+        int [] data = {5, 7, -3, 6, 1};
+        bubleSort(data);
+        
+    }
+}
+
+ int key = 1;
+System.out.println(linearSearch(key, data));
+
+
+
+
+public  static int linierSearch ( int k,  int[] data) {
+    for (int i = 0; i < data.length; i++) {
+        if (data[i] == k) {
+            return i;
+
+
+
+            public class Main{
+            public static int binarySearch(int k,int[] data) {
+                int a = 0;
+                int b = data.length - 1;
+                while (a <= b) {
+                    int m = (a + b) / 2;
+
+                    if (data[m] == k) {
+                        return m;
+                    } else if (data[m] < k) {
+                        b = m + 1;
+                    } else {
+                        a = m - 1;
+                    }
+                }
+                return -1;
+
+        }
+    }
+    return -1;
+}
