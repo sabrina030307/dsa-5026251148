@@ -1,3 +1,4 @@
+package lw6.lw06.prelab;
 
 import java.util.Scanner;
 

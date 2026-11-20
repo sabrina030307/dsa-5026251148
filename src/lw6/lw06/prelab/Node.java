@@ -1,4 +1,4 @@
-package lw6.prelab;
+package lw6.lw06.prelab;
 
 public class Node {
 
